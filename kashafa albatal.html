@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#20113f">
+    <meta name="description" content="الموقع الرسمي لكشافة البطل بكنيسة الشهيد العظيم مارجرجس بقنا">
+    <title>كشافة البطل | كنيسة مارجرجس - قنا</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <header class="header" id="top">
+        <a class="brand" href="#home" aria-label="كشافة البطل - الرئيسية">
+            <span class="brand-logo">
+                <img src="photos/logo.jpg" alt="شعار كشافة البطل">
+            </span>
+            <span class="brand-text">
+                <strong>كشافة البطل</strong>
+                <small>كنيسة مارجرجس — قنا</small>
+            </span>
+        </a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="فتح القائمة" aria-expanded="false" aria-controls="nav"
+            type="button">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav" id="nav" aria-label="القائمة الرئيسية">
+            <a href="#home" class="nav-link active">الرئيسية</a>
+            <a href="#about" class="nav-link">من نحن</a>
+            <a href="#history" class="nav-link">تاريخنا</a>
+            <a href="#activities" class="nav-link">أنشطتنا</a>
+            <a href="#learning" class="nav-link">تعليم الكشافة</a>
+            <a href="#gallery" class="nav-link">معرض الصور</a>
+            <a href="#leaders" class="nav-link">فريقنا</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- الواجهة الرئيسية -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="hero-decoration decoration-one"></div>
+            <div class="hero-decoration decoration-two"></div>
+
+            <div class="hero-content reveal">
+                <div class="hero-emblem">
+                    <img src="photos/logo.jpg" alt="شعار كشافة البطل">
+                </div>
+
+                <p class="hero-tag">
+                    <span class="gold-line"></span>
+                    كنيسة الشهيد العظيم مارجرجس — قنا
+                    <span class="gold-line"></span>
+                </p>
+
+                <h1>أهلًا بيك في<br><span>كشافة البطل</span></h1>
+
+                <p class="hero-description">
+                    نتعلم، نتعاون، نخدم، ونصنع ذكريات تفضل معانا طول العمر.
+                </p>
+
+                <div class="hero-buttons">
+                    <a class="btn btn-gold" href="#about">
+                        اكتشف فرقتنا <span>←</span>
+                    </a>
+                    <a class="btn btn-outline" href="#activities">
+                        شوف أنشطتنا
+                    </a>
+                </div>
+
+                <div class="hero-motto">
+                    <span>⚜</span>
+                    <span>دايمًا مستعدين</span>
+                    <span>⚜</span>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-cue" aria-label="انزل إلى القسم التالي">
+                <span></span>
+            </a>
+        </section>
+
+        <!-- من نحن -->
+        <section class="section about" id="about">
+            <div class="section-title reveal">
+                <p class="eyebrow">حكايتنا</p>
+                <h2>من نحن؟</h2>
+                <span class="title-line"></span>
+                <p>أسرة واحدة، هدف واحد، وروح كشفية تجمعنا.</p>
+            </div>
+
+            <div class="about-content reveal">
+                <div class="about-visual">
+                    <div class="about-logo-frame">
+                        <img src="photos/logo.jpg" alt="شعار فرقة كشافة البطل" class="about-logo">
+                    </div>
+                    <span class="about-stamp">⚜</span>
+                </div>
+
+                <div class="about-text">
+                    <span class="mini-label">أهلًا بيك وسط عيلتك</span>
+                    <h3>إحنا <span>كشافة البطل</span> ⚜</h3>
+                    <p>
+                        فرقة كشافة البطل التابعة لكنيسة الشهيد العظيم مارجرجس بقنا،
+                        تأسست عام 2025.
+                    </p>
+                    <p>
+                        هدفنا نتعلم المهارات الكشفية، ونقوي روح التعاون والمسؤولية،
+                        ونشارك في الأنشطة والخدمة المجتمعية.
+                    </p>
+
+                    <div class="values-list">
+                        <div class="value-item">
+                            <span class="value-icon">✦</span>
+                            <span>التعاون</span>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-icon">✦</span>
+                            <span>المسؤولية</span>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-icon">✦</span>
+                            <span>الخدمة</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- تاريخ الفرقة -->
+        <section class="section history" id="history">
+            <div class="section-title reveal">
+                <p class="eyebrow">من البداية</p>
+                <h2>تاريخنا</h2>
+                <span class="title-line"></span>
+                <p>كل فرقة ليها حكاية، ودي بداية حكايتنا.</p>
+            </div>
+
+            <div class="timeline reveal">
+                <div class="timeline-line"></div>
+                <article class="timeline-card">
+                    <div class="timeline-marker">⚜</div>
+                    <span class="year-badge">2025</span>
+                    <h3>بداية رحلة كشافة البطل</h3>
+                    <p>تأسست الفرقة يوم 6 / 7 / 2025.</p>
+                    <span class="timeline-date">6 يوليو 2025</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- الأنشطة -->
+        <section class="section activities" id="activities">
+            <div class="section-title reveal">
+                <p class="eyebrow">نتعلم بالممارسة</p>
+                <h2>أنشطتنا</h2>
+                <span class="title-line"></span>
+                <p>كل نشاط فرصة نتعلم فيها حاجة جديدة.</p>
+            </div>
+
+            <div class="cards">
+                <article class="card activity-card reveal">
+                    <div class="card-icon">⛺</div>
+                    <span class="card-number">01</span>
+                    <h3>المعسكرات</h3>
+                    <p>التعاون والاعتماد على النفس وتنظيم الحياة في المعسكر.</p>
+                    <span class="card-bottom">روح المغامرة <span>↗</span></span>
+                </article>
+
+                <article class="card activity-card reveal">
+                    <div class="card-icon">🌿</div>
+                    <span class="card-number">02</span>
+                    <h3>الخدمة العامة</h3>
+                    <p>المشاركة في الأعمال التطوعية وخدمة المجتمع.</p>
+                    <span class="card-bottom">خدمة بمحبة <span>↗</span></span>
+                </article>
+
+                <article class="card activity-card reveal">
+                    <div class="card-icon">🧭</div>
+                    <span class="card-number">03</span>
+                    <h3>الرحلات</h3>
+                    <p>استكشاف أماكن جديدة وصناعة ذكريات مع الفريق.</p>
+                    <span class="card-bottom">اكتشف الجديد <span>↗</span></span>
+                </article>
+
+                <article class="card activity-card reveal">
+                    <div class="card-icon">🤝</div>
+                    <span class="card-number">04</span>
+                    <h3>التدريبات</h3>
+                    <p>تعلم المهارات والعمل بروح الفريق.</p>
+                    <span class="card-bottom">نتعلم سوا <span>↗</span></span>
+                </article>
+            </div>
+        </section>
+
+        <!-- تعليم الكشافة -->
+        <section class="section learning" id="learning">
+            <div class="section-title reveal">
+                <p class="eyebrow">اتعلم مهارة جديدة</p>
+                <h2>تعليم الكشافة</h2>
+                <span class="title-line"></span>
+                <p>خطوات صغيرة ومهارات تفضل معاك طول العمر.</p>
+            </div>
+
+            <div class="lesson-list">
+                <article class="lesson reveal">
+                    <span class="lesson-number">01</span>
+                    <div>
+                        <h3>العقد والربطات</h3>
+                        <p>تعرف على أنواع العقد واستخداماتها الصحيحة.</p>
+                    </div>
+                    <span class="lesson-arrow">↙</span>
+                </article>
+
+                <article class="lesson reveal">
+                    <span class="lesson-number">02</span>
+                    <div>
+                        <h3>الاتجاهات والخرائط</h3>
+                        <p>مبادئ قراءة الخرائط وتحديد الاتجاهات بأمان.</p>
+                    </div>
+                    <span class="lesson-arrow">↙</span>
+                </article>
+
+                <article class="lesson reveal">
+                    <span class="lesson-number">03</span>
+                    <div>
+                        <h3>أساسيات التخييم</h3>
+                        <p>التجهيز للمعسكر وتنظيم الأدوات والمحافظة على البيئة.</p>
+                    </div>
+                    <span class="lesson-arrow">↙</span>
+                </article>
+
+                <article class="lesson reveal">
+                    <span class="lesson-number">04</span>
+                    <div>
+                        <h3>الإسعافات الأولية</h3>
+                        <p>مبادئ توعوية والتدريب تحت إشراف مختصين.</p>
+                    </div>
+                    <span class="lesson-arrow">↙</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- معرض الصور -->
+        <section class="section gallery" id="gallery">
+            <div class="section-title reveal">
+                <p class="eyebrow">ذكرياتنا</p>
+                <h2>معرض الصور</h2>
+                <span class="title-line"></span>
+                <p>كل صورة بتحكي حكاية من حكايات فريقنا.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <button class="gallery-item gallery-large reveal" type="button" data-image="photos/activity1.jpg"
+                    aria-label="تكبير صورة نشاط كشفي">
+                    <img src="photos/activity1.jpg" alt="نشاط كشفي" loading="lazy">
+                    <span class="gallery-caption">
+                        <span><strong>نشاط كشفي</strong><small>نتعلم ونكتشف</small></span>
+                        <span class="gallery-zoom">＋</span>
+                    </span>
+                </button>
+
+                <button class="gallery-item reveal" type="button" data-image="photos/activity2.jpg"
+                    aria-label="تكبير صورة اجتماع الفرقة">
+                    <img src="photos/activity2.jpg" alt="اجتماع الفرقة" loading="lazy">
+                    <span class="gallery-caption">
+                        <span><strong>اجتماع الفرقة</strong><small>إيد واحدة</small></span>
+                        <span class="gallery-zoom">＋</span>
+                    </span>
+                </button>
+
+                <button class="gallery-item reveal" type="button" data-image="photos/camp.jpg"
+                    aria-label="تكبير صورة المعسكر">
+                    <img src="photos/camp.jpg" alt="ذكريات المعسكر" loading="lazy">
+                    <span class="gallery-caption">
+                        <span><strong>ذكريات المعسكر</strong><small>مغامراتنا سوا</small></span>
+                        <span class="gallery-zoom">＋</span>
+                    </span>
+                </button>
+
+                <button class="gallery-item reveal" type="button" data-image="photos/trip.jpg"
+                    aria-label="تكبير صورة الرحلة الكشفية">
+                    <img src="photos/trip.jpg" alt="رحلة كشفية" loading="lazy">
+                    <span class="gallery-caption">
+                        <span><strong>رحلة كشفية</strong><small>ذكريات بتجمعنا</small></span>
+                        <span class="gallery-zoom">＋</span>
+                    </span>
+                </button>
+            </div>
+
+            <p class="gallery-note">
+                ضع صوركم الحقيقية داخل مجلد photos بالأسماء المكتوبة في الكود.
+                لا تنشر صور الأفراد دون الموافقات اللازمة.
+            </p>
+        </section>
+
+        <!-- القادة والأفراد -->
+        <section class="section leaders" id="leaders">
+            <div class="section-title reveal">
+                <p class="eyebrow">روح الفريق</p>
+                <h2>القادة والأفراد</h2>
+                <span class="title-line"></span>
+                <p>كل فرد في الفريق ليه دور، وبنجاحنا بننجح سوا.</p>
+            </div>
+
+            <div class="cards team-cards">
+                <article class="card team-card reveal">
+                    <div class="person-icon">⚜</div>
+                    <span class="team-role">قيادة</span>
+                    <h3>ا/روفائيل</h3>
+                    <p>قائد الفرقة</p>
+                </article>
+
+                <article class="card team-card reveal">
+                    <div class="person-icon">✦</div>
+                    <span class="team-role">تنظيم</span>
+                    <h3>اسم المسؤول</h3>
+                    <p>مسؤول الأنشطة</p>
+                </article>
+
+                <article class="card team-card reveal">
+                    <div class="person-icon">♙</div>
+                    <span class="team-role">فريق واحد</span>
+                    <h3>أفراد الفرقة</h3>
+                    <p>أسرة كشافة البطل</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- الختام -->
+        <section class="join reveal">
+            <div class="join-decoration">⚜</div>
+            <p class="eyebrow">رحلتنا مستمرة</p>
+            <h2>كشافة البطل.. دايمًا مستعدين!</h2>
+            <p>نتعلم مع بعض، ونخدم بمحبة، ونكبر بروح الفريق.</p>
+            <a class="btn btn-gold" href="#home">العودة للرئيسية ↑</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#home" class="footer-brand">
+            <img src="photos/logo.jpg" alt="شعار كشافة البطل" loading="lazy">
+            <strong>كشافة البطل</strong>
+        </a>
+        <p>كنيسة الشهيد العظيم مارجرجس — قنا</p>
+        <p>تأسست عام 2025</p>
+        <div class="footer-divider"></div>
+        <p class="copyright">© <span id="year"></span> كشافة البطل — جميع الحقوق محفوظة</p>
+    </footer>
+
+    <!-- عارض الصور -->
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="عارض الصور">
+        <button class="lightbox-close" id="closeLightbox" type="button" aria-label="إغلاق الصورة">×</button>
+
+        <button class="lightbox-nav lightbox-prev" id="prevImage" type="button" aria-label="الصورة السابقة">›</button>
+
+        <figure class="lightbox-figure">
+            <img id="lightboxImage" src="" alt="صورة مكبرة">
+            <figcaption id="lightboxCaption"></figcaption>
+        </figure>
+
+        <button class="lightbox-nav lightbox-next" id="nextImage" type="button" aria-label="الصورة التالية">‹</button>
+
+        <p class="lightbox-counter" id="lightboxCounter"></p>
+    </div>
+
+    <button class="back-to-top" id="backToTop" type="button" aria-label="العودة لأعلى الصفحة">↑</button>
+
+</body>
+
+</html>
